@@ -1,0 +1,97 @@
+*
+{
+    font-family: "Roboto Condensed", sans-serif;
+    margin:0;
+    padding:0;
+}
+body
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    margin:0 auto;
+}
+.container
+{
+    border-radius:12px;
+    width:768px;
+    max-width:100%;
+    min-height:480px;
+    position:relative;
+    overflow:hidden;
+}
+.form-container
+{
+    position:absolute;
+    top:0%;
+    height:100%;
+}
+.sign-up-container
+{
+    left:0;
+    width:50%;
+    z-index:1;
+}
+form
+{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    padding:0 50px;
+    height:100%;
+    text-align:center;
+}
+h2
+{
+    font-weight:bold;
+    margin:0;
+    color:darkcyan;
+}
+.social-container
+{
+    margin:20px 0;
+}
+.social-container a
+{
+    box-shadow:5px 5px 5px gray;
+    border-radius:50%;
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    margin:0 5px;
+    height:40px;
+    width:40px;
+}
+a
+{
+    color:darkcyan;
+    font-size:18px;
+    text-decoration:none;
+    margin:15px 0;
+}
+span
+{
+    font-size:12px;
+}    
+input
+{
+    border:none;
+    box-shadow:5px 5px 5px gray;
+    border-radius:10px;
+    text-decoration:none;
+    margin:8px 0;
+    padding:12px 15px;
+    width:100%;
+}
+button
+{
+    border-radius:20px;
+    box-shadow:5px 5px 5px gray;
+    font-size:15px;
+    font-weight:bold;
+    padding:12px 45px;
+    letter-spacing:.7px;
+}
+
